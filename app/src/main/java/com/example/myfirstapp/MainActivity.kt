@@ -6,9 +6,9 @@ import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 
-class MainActivity : AppCompatActivity() {
+const val EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE"
 
-    const val EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE"
+class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
